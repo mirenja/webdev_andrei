@@ -1,0 +1,27 @@
+.container {
+
+    display:flex;
+    flex-wrap:wrap; /*so that its not continously horizontal*/
+    justify-content: center;
+    /* align-items:center; */
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:3em;
+    border-bottom: 2px solid pink;
+    border-right:2px solid pink ;
+    width:400px;
+    text-align:center;
+
+}
+
+
+ img{  
+    width:30%;
+    height:30%;
+    margin:0.35rem;
+    transition:all 1s;
+} 
+ img:hover{
+     transform:scale(1.1);
+ }

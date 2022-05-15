@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>register.html</title>
+
+</head>
+
+<body>
+	<!--POST method is preffered to GET 
+		 USING POST
+file:///home/gillian/repos/andrei_bootcamp_webdev/htmltasks/register.html
+using GET
+file:///home/gillian/repos/andrei_bootcamp_webdev/htmltasks/register.html?firstname=Jane&lastname=Doe&email=janedoe%40gamil.com&password=12345&birthday=2021-11-11&gender=female&dog=on&cars=audi&Register=Submit
+	-->
+
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email"><br>
+		Password: <input type="password" name="password" min="5"><br required>
+		Birthday:<input type="date" name="birthday"><br>
+		Gender: <br>
+		<input type="radio" name="gender" value ="male">Male <br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="other">Prefer not to say<br>
+		Pets: <br>
+		<input type="checkbox" name="cat">Cat <br>
+		<input type="checkbox" name="dog">Dogs<br>
+		Cars:
+		<select name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="audi">Audi</option>
+			<option value="vw">VW</option>
+		</select><br>
+		<input type="submit" name="Register">
+		<input type="reset">
+
+
+	</form>
+	
+</body>
+
+
+</html>
+

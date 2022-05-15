@@ -1,0 +1,45 @@
+
+*{
+	text-align:right;
+}
+body{
+	background-image:url(background2.jpg);
+	background-size:cover;/**make the image fit the screen read more on it**/
+}
+/*selector for all p tags inide h2 use h2 p { }*/
+/*h2 > p{} paragraphs that are */
+/* h2 +p {} any p element thats exactly after the h2*/
+h2  p:hover{
+	color:#AA4139;
+	text-align:center;
+	border:5px solid rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+p{
+	color:green;
+}
+li{
+	list-style: none;
+	display:inline-block;
+}
+.webtext:last-child {
+	border:5px dashed green;
+
+}
+
+.active{
+	color: red;
+}
+
+#div2{
+	background:rgba(255,0,0,0.2);/*opacity ranges from 0 to 1 with 0 being transparent and 1 being opaque*/
+}
+
+img {
+	width:80px;
+	height:80px;
+	float:right;
+}
+
+
